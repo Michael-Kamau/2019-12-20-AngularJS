@@ -1,12 +1,35 @@
 
 
 <header>
-  <div class="container">
-    <a href="#">CoolApp</a>
-    <nav>
-      <li><a href="#" routerLink="/">Home</a></li>
-      <li><a href="#" routerLink="/contacts">Contacts</a></li>
-    </nav>
-  </div>
+<!--  <div class="container">-->
+<!--    <a href="#">CoolApp</a>-->
+<!--    <nav>-->
+<!--      <li><a href="#" routerLink="/">Home</a></li>-->
+<!--      <li><a href="#" routerLink="/contacts">Contacts</a></li>-->
+<!--    </nav>-->
+<!--  </div>-->
+
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#" routerLink="/">Devs App</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/contacts">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 <router-outlet></router-outlet>
